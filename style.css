@@ -1,0 +1,21 @@
+body {
+	background-color: #b5b8f3;
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(49, 49, 70);
+	text-align: center;
+}
+
+h1:hover{
+	text-decoration: underline dotted;
+}
+
+img{
+	height: 300px;
+	border-radius: 10px;
+	transition: ease-in-out 0.25s;
+	border: solid;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
